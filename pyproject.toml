@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "daily-task-helper-main"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "daily_task_helper_main"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+colorama = "^0.4.6"
+datetime = "^5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
